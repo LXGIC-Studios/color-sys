@@ -1,0 +1,41 @@
+{
+  "name": "@lxgicstudios/color-sys",
+  "version": "1.0.0",
+  "description": "Generate a complete design system color palette from one hex color. Outputs 10-shade scale like Tailwind (50-950), complementary colors, and WCAG contrast pairs. Export as CSS, Tailwind config, or dark mode tokens.",
+  "main": "dist/index.js",
+  "bin": {
+    "color-sys": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "color-palette",
+    "design-system",
+    "tailwind-colors",
+    "color-generator",
+    "wcag",
+    "contrast",
+    "accessibility",
+    "css-variables",
+    "dark-mode",
+    "cli"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/color-sys"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
